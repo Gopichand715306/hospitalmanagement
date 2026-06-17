@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <HospitalProvider>
-      <Router basename="/hospitalmanagement">
+      <Router>
         <div className="app-container">
           <Navbar />
           <main className="main-content">
